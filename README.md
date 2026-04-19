@@ -67,8 +67,8 @@ This increases exposure to underrepresented classes without altering validation 
 
 | Model                             | Precision | Recall | mAP@0.5 |
 |----------------------------------|----------|--------|---------|
-| YOLOv8m (Baseline)               | 0.68     | 0.45   | 0.324   |
-| ATEM + Oversampling + YOLOv8m    | 0.75     | 0.32   | 0.426   |
+| YOLOv8m (Baseline)               | 0.68     | 0.34   | 0.324   |
+| ATEM + Oversampling + YOLOv8m    | 0.75     | 0.45   | 0.426   |
 
 The proposed approach improves mAP@0.5 by 0.102, demonstrating the effectiveness of improving input quality and training distribution.
 
